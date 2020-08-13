@@ -149,13 +149,13 @@
       end
       [Q,R] = mgs_weighted(snapshots,MM);
 
-      clear M, MM
+      clear M MM
       clear snapshots
 
       [U,Sigma,V] = svd(R,0);
       [n1,n2]  = size(U);
       POD = Q*U(:,1:r);
-      clear U, Q
+      clear U Q
       
     else
 

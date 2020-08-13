@@ -199,8 +199,8 @@ end
 
 %  oned_bilinear
 %  oned_f_int
-%  oned_gauss
 %  oned_mesh
+%  oned_quadrature
 %  oned_shape
 %
 %  weak_resid
